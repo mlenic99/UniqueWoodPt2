@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/idItem">
+
+    <ImageView
+        android:id="@+id/ivItem"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/tvItemName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/CardView.Dark"
+            android:textStyle="bold"
+            android:text="NAME"/>
+
+        <TextView
+            android:id="@+id/tvItemSize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AddSize"/>
+
+        <TextView
+            android:id="@+id/tvItemColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AddColor"/>
+
+        <TextView
+            android:id="@+id/tvItemPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AddPrice"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/ivAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_add_black_24dp"
+            android:foregroundGravity="right"
+            android:layout_marginTop="20dp"
+            android:background="@color/cardview_light_background"/>
+    </LinearLayout>
+
+</LinearLayout>

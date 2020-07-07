@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PurchaseEndActivity">
+
+    <TextView
+        android:id="@+id/tvCPTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/CPTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/color1"/>
+
+    <TextView
+        android:id="@+id/tvCPOpcina"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/CPOpcina"
+        android:textColor="@color/color1"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        android:layout_below="@+id/tvCPTitle"
+        />
+
+    <TextView
+        android:id="@+id/tvLinkOpcina"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvCPOpcina"
+        android:layout_marginTop="8dp"
+        android:text="@string/LinkOpcina"
+        android:layout_gravity="center"
+        android:textColor="@color/color1"
+        android:textSize="16sp"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:id="@+id/tvCpMoreAbout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:text="@string/CPMoreAbout"
+        android:textColor="@color/colorAccent"
+        android:textSize="15sp"
+        android:layout_below="@+id/tvCPOpcina"/>
+
+    <TextView
+        android:id="@+id/tvLinkWebsite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvCpMoreAbout"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center"
+        android:text="@string/LinkWebsite"
+        android:textColor="@color/color1"
+        android:textStyle="italic"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/CPContact"
+        android:layout_below="@+id/tvCpMoreAbout"
+        android:layout_marginTop="100dp"
+        android:textSize="15sp"
+        android:textColor="@color/color1"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

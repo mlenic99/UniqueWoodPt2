@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Unique Wood</string>
+    <string name="HomeTitle">WELCOME</string>
+    <string name="HomeAbout">        SMALL COMMUNITY DEDICATED TO MAKING AND SELLING A SPECIAL UNIQUE WOODEN ITEM, OBORAK</string>
+    <string name="Use">USAGE:</string>
+    <string name="DiscoverUs">To discover a lot more about this topic visit us in Eastern Croatia.</string>
+    <string name="CreateTitle">DESIGN YOUR OWN CUSTOM OBORAK</string>
+    <string name="Name">Name</string>
+    <string name="Size">Size</string>
+    <string name="Color">Color</string>
+    <string name="HintName">Enter name</string>
+    <string name="HintSize">Enter size in cm</string>
+    <string name="Prompt">Choose a color</string>
+    <string-array name="ListOfColors">
+        <item>Black</item>
+        <item>Red</item>
+        <item>Blue</item>
+        <item>White</item>
+        <item>Green</item>
+        <item>Brown</item>
+    </string-array>
+    <string name="btnGoToCart">ADD TO CART</string>
+    <string name="CPTitle">THANK YOU FOR SHOPPING!</string>
+    <string name="CPOpcina">Make sure you visit our official website - </string>
+    <string name="CPMoreAbout">To find more about Oborak, its history and how is it really made we have a website on which you can learn all that and lot of other entertaining stuff.</string>
+    <string name="CPContact">For more infomation contact us on: oborak@gmail.com</string>
+    <string name="LinkOpcina"><a href="https://www.bosnjaci.hr/">Općina Bošnjaci</a></string>
+    <string name="LinkWebsite"><a href="https://www.ferit.unios.hr/studenti/raspored-nastave-i-ispita">Oborak</a></string>
+</resources>

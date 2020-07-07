@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvCreateTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/CreateTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10sp"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/tvEnterName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="@string/Name"
+        android:layout_below="@id/tvCreateTitle"
+        android:layout_marginTop="30dp"
+        android:textStyle="italic"
+        android:textColor="@color/color1"
+        android:textSize="18sp"
+        />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvCreateTitle"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginEnd="120dp"
+        android:hint="@string/HintName"
+        android:inputType="text"/>
+
+    <TextView
+        android:id="@+id/tvEnterSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="@string/Size"
+        android:layout_below="@id/tvEnterName"
+        android:layout_marginTop="30dp"
+        android:textStyle="italic"
+        android:textColor="@color/color1"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/etSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etName"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginEnd="120dp"
+        android:inputType="number"
+        android:hint="@string/HintSize"/>
+
+
+    <TextView
+        android:id="@+id/tvEnterColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="@string/Color"
+        android:layout_below="@id/tvEnterSize"
+        android:layout_marginTop="20dp"
+        android:textStyle="italic"
+        android:textColor="@color/color1"
+        android:textSize="18sp"/>
+
+    <Spinner
+        android:id="@+id/spinnerColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etSize"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="10dp"
+        android:entries="@array/ListOfColors"
+        android:prompt="@string/Prompt"
+        />
+
+    <!--<TextView
+        android:id="@+id/tvCheckCover"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="Cover"
+        android:layout_below="@id/tvEnterColor"
+        android:layout_marginTop="20dp"
+        android:textStyle="italic"
+        android:textColor="@color/color1"
+        android:textSize="18sp"/>
+
+    <RadioGroup
+        android:id="@+id/rgCheckCover"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/tvEnterColor"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="125dp"
+        android:layout_marginEnd="50dp">
+        
+        <RadioButton
+            android:id="@+id/rbYes"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Yes"
+            android:textSize="18sp"
+            android:layout_weight="1"/>
+        <RadioButton
+            android:id="@+id/rbNo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="No"
+            android:textSize="18sp"
+            android:layout_weight="1"/>
+
+    </RadioGroup>-->
+
+    <Button
+        android:id="@+id/btnGoToCart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinnerColor"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/btnGoToCart"
+        android:textSize="18sp"
+        />
+
+
+</RelativeLayout>
